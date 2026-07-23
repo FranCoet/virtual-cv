@@ -6,102 +6,71 @@
 html{
     scroll-behavior:smooth;}
 
-body{ min-height: 100vh;
-      margin: 0;
-    padding:24px;
+body {
+    margin: 0;
+
+    min-height: 100vh ;
+    font-family: "Segoe UI",Arial, Helvetica, sans-serif;
+    color: #f4f7fb;
+
+    background-color: #06111f  ;
+}
+
+header{
+
+
+    width: 90%;
+    max-width: 1100px;
+
+    margin: 0 auto;
+    padding: 24px 0;
+}
+
+header a{
+    color: #f4f7fb;
+
+
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+header a:hover{
+
+    color: #48dfe5 ;
+
+
+}
+
+
+main{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto ;
+
+}
+
+#home {
+
+    min-height: calc(100vh - 80px  );
 
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
 
-    
-    font-family :Arial, Helvetica, sans-serif;
-    line-height : 1.6;
-
-    color: #1f2937;
-    background: #eef2f7}
-
-.welcome-section{
-    width :100%;
-    max-width: 720px;
-    padding: 56px 32px ;
-
-
-    text-align: center ;
-
-    background: #ffffff;
-    border-radius: 18px;
-    box-shadow: 0 16px 40px rgba(15, 23, 42, 0.12);
-
 }
 
-.eyebrow{
-
-    margin-bottom: 8px;
-    font-size: 0.85rem;
-    font-weight: 700;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-
-
-    color: #3155a6;
-}
-
-h1{ 
+#home p{
     margin: 0 0 16px;
-    font-size: clamp(2.2rem, 8vw, 4rem);
-    line-height: 1.1;
-}
 
-.introduction {
-    max-width: 540px;
-    margin: 0 auto 28px;
-    color: #52606d;
-
+    color: #48dfe5 ; 
 
 }
 
-button{
+h1 {
+    margin: 0 0 20px;
+    font-size: clamp(48px,9vw, 100px) ;
 
-    padding: 12px 22px;
-    font: inherit;
-    font-weight: 700;
-
-    color:#ffffff;
-    background : #3155a6;
-
-
-    border: 0;
-    border-radius: 8px;
-    cursor: pointer;
-
-    transition: 
-        transform 0.2s ease,
-        background-color 0.2s ease;
-
-}
-
-
-button:hover {
-    background: #233f82;
-    
-    transform: translateY(-2px);
-
-}
-
-
-button:focus-visible {
-
-
-    outline: 3px solid #93b4ff;
-    outline-offset: 3px;
-
-}
-
-
-#test-message {
-    min-height: 26px;
-    margin-bottom: 0;
-    font-weight: 700;
-    color: #23633b;
+    line-height: 1;
 }
