@@ -3,7 +3,7 @@
 This repositor contains the source code for my personal Virtual CV and portfolio website
 
 ## Live Website
-The GithubPages website link will be added here after deployment.
+https://francoet.github.io/virtual-cv/
 
 ## Technologies that were used
 Html
