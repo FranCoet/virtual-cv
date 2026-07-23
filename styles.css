@@ -115,3 +115,50 @@ h1 {
 
     line-height: 1;
 }
+
+
+section:not(#home){
+
+    min-height: 70vh;
+    padding: 100px 0;
+
+}
+
+.section-label {
+    margin: 0 0 12px;
+    color: #48dfe5;
+    font-size: 14px;
+
+
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+}
+
+
+h2 {
+
+    max-width: 700px;
+    margin: 0 0 28px;
+    font-size: clamp(32px, 5vw,56px);
+    line-height: 1.1;
+
+}
+
+#about{
+    max-width: 760px;
+}
+
+#about p:not(.section-label){
+
+    max-width: 680px;
+
+    margin: 0 0 18px;
+
+    color: #aebdca;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
