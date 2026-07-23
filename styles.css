@@ -18,29 +18,66 @@ body {
 
 header{
 
+    position: sticky;
+    
+    top: 0;
+    z-index: 10;
 
-    width: 90%;
-    max-width: 1100px;
+    width: 100%;
+    padding: 0 5%;
 
-    margin: 0 auto;
-    padding: 24px 0;
+
+    background-color: #06111f;
+    border-bottom: 1px solid #13283d;
+
+
 }
 
-header a{
+nav {
+    width: 100%;
+
+    max-width: 1100px;
+    margin: 0 auto;
+
+    padding: 20px 0;
+
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+nav > a{
     color: #f4f7fb;
 
-
-    font-size: 24px;
+    font-size: 24px ;
     font-weight: bold;
+
     text-decoration: none;
 
 }
 
-header a:hover{
+nav ul{
+    margin: 0;
 
-    color: #48dfe5 ;
+    padding: 0;
+    display: flex;
+    gap: 28px;
 
 
+    list-style: none;
+}
+
+nav ul a{
+    color: #f4f7fb;
+    font-size: 15px; 
+
+    text-decoration: none ;
+}
+
+nav a:hover{
+
+    color: #48dfe5;
 }
 
 
@@ -49,6 +86,10 @@ main{
     max-width: 1100px;
     margin: 0 auto ;
 
+}
+
+section{
+    scroll-margin-top: 90px;
 }
 
 #home {
