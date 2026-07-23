@@ -161,4 +161,37 @@ h2 {
     line-height: 1.7;
 }
 
+#skills{
+    padding-top: 120px;
+    padding-bottom: 120px;
 
+}
+
+.skills-list{
+    margin: 40px 0 0;
+    padding: 0;
+
+
+    display: grid ;
+
+    grid-template-columns: repeat(3,1fr);
+    gap: 16px;
+
+    list-style: none;
+}
+
+.skills-list li {
+    padding: 24px;
+
+    color: #f4f7fb;
+    background-color: #0b1c2e;
+
+    border: 1px solid #17334c;
+    border-radius: 6px;
+
+    font-size: 17px;
+}
+
+.skills-list li:hover{
+    border-color: #48dfe5;
+}
