@@ -195,3 +195,136 @@ h2 {
 .skills-list li:hover{
     border-color: #48dfe5;
 }
+
+
+.project-note {
+    max-width: 700px;
+
+    margin: 0 0 32px;
+    padding: 16px 20px;
+
+
+    background-color: #0b1c2e;
+    border-left: 3px solid #48dfe5;
+
+}
+
+.project-note p{
+    margin: 0 ;
+
+
+    color: #aebdca;
+    line-height: 1.6;
+
+}
+
+.project-card{
+    max-width: 700px;
+
+    padding: 28px;
+    background-color: #0b1c2e;
+    border: 1px solid #17334c;
+    border-radius: 6px;
+
+}
+
+.project-card h3{
+
+    margin: 0 0 16px;
+
+    color: #f4f7fb;
+    font-size: 26px;
+}
+
+.project-card > p{
+    
+    margin: 0 0 22px;
+    color: #aebdca;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.project-tools {
+    margin: 0 0 24px;
+
+
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 10px;
+    list-style: none;
+}
+
+.project-tools li{
+    padding: 6px 12px;
+
+    color: #48dfe5;
+    background-color: #10263b;
+    border: 1px solid #173f69;
+    border-radius: 20px;
+
+    font-size: 14px;
+}
+
+.project-card a{
+    color: #48dfe5;
+    font-weight: bold;
+
+
+    text-decoration: none;
+}
+
+.project-card a:hover{
+    text-decoration: underline  ;
+}
+
+
+.project-card + .project-card{
+    margin-top: 28px;
+}
+
+.project-logo{
+    
+    width: 100%;
+    max-width: 420px;
+
+
+    height: auto;
+    margin: 0 0 24px;
+    padding: 14px;
+
+    display: block;
+    object-fit: contain;
+
+    background-color: #f3f7fb;
+    border-radius: 6px ;
+
+
+
+}
+
+.project-type{
+    margin: 0 0 10px;
+
+    color: #48dfe5;
+    font-size: 13px;
+
+
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase ;
+}
+
+
+.project-card{
+    transition: 
+        border-color 0.2s ease, transform 0.2s ease;
+}
+
+
+.project-card:hover{
+    border-color: #48dfe5;
+
+    transform: translateY(-3px);
+}
