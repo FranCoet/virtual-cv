@@ -328,3 +328,36 @@ h2 {
 
     transform: translateY(-3px);
 }
+
+.project-card>.project-type{
+    margin : 0 0 10px;
+    color: #48dfe5;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+
+.profit-logo{
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 16/9;
+
+
+    padding: 0;
+    
+    object-fit: contain;
+}
+
+.project-card > .project-status{
+    margin: 22px 0 0;
+
+    padding-top: 18px;
+    color: #7f91a4;
+    border-top: 1px solid #17334c;
+    font-size: 14px;
+
+    font-style: italic;
+}
+
