@@ -404,3 +404,53 @@ h2 {
     font-size: 17px;
     line-height: 1.7;
 }
+
+
+.subject-list{
+    margin: 24px 0 0;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+
+    list-style: none;
+}
+
+
+.subject-list li{
+    min-height: 54px;
+
+    padding: 14px 16px;
+
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    gap: 12px  ;
+    color: #aebdca;
+    background-color: #10263b;
+    border: 1px solid #17334c;
+    border-radius: 6px;
+}
+
+.subject-list .distinction{
+    color: #f4f7fb;
+    border-color: #28647a;
+}
+
+.subject-list span{
+    color: #48dfe5;
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 1px;
+
+    text-transform:  uppercase;
+}
+
+.education-card +.education-card{
+    margin-top: 32px;
+}
+
