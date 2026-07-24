@@ -505,3 +505,100 @@ h2 {
     background-color:transparent ;
     transform: translateY(-3px);
 }
+
+
+@media (max-width:800px){
+
+
+    nav{
+
+        padding: 16px 0;
+
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 12px   ;
+    }
+
+    nav ul{
+        width: 100%;
+
+        flex-wrap: wrap;
+        gap: 12px 20px;
+    }
+
+    section{
+
+
+        scroll-margin-top: 145px;
+    }
+
+    #home{
+        min-height: calc(100vh-130px);
+    }
+
+    .skills-list{
+
+        grid-template-columns: repeat(2,1fr) ;
+    }
+}
+
+@media (max-width: 550px){
+
+    main{
+        width: 92%;
+    }
+
+    header{
+
+        padding: 0 4%;
+
+    }
+
+    nav ul{
+        gap: 10px 16px;
+    }
+
+    nav ul a{
+
+        font-size: 14px;
+    }
+
+
+
+    h1{
+        font-size: clamp(44px,15vw,70px);
+    }
+
+    section:not(#home){
+        padding: 72px 0;
+
+    }
+
+    .skills-list,
+    .subject-list{
+
+        grid-template-columns: 1fr;
+    }
+
+    .project-card,
+    .education-card{
+        padding: 20px;
+    }
+
+
+
+    .project-logo{
+        max-width: 100%;
+    }
+
+    
+
+
+    .contact-links{
+        flex-direction: column;
+    }
+
+    .contact-links a{
+        width: 100%;
+    }
+}
